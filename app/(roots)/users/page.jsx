@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className='min-h-screen bg-white'>
       <h1 className='p-4 text-4xl font-bold'>Users List</h1>
-      {/* <UserList /> */}
+      <UserList />
     </div>
   );
 };
