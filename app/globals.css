@@ -24,4 +24,46 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    user-select: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 100%;
+}
+
+@media screen and (max-width: 912px) {  
+  .grid-container {
+    grid-template-columns: 100%;
+  }
+}
+
+.inputs {
+  padding-inline: .5em;
+  padding-block: .7em;
+  border-bottom: 1px solid rgba(221, 221, 211, .39);
+}
+
+@layer components {
+  /** Inputs */
+  .inputs {
+    @apply bg-transparent text-black text-[.9rem] w-full border-none box-border
+  }
+    
+  .inputs:hover {
+    @apply hover:bg-[#4985e01f] 
+  }
+    
+  .inputs:focus {
+    @apply focus:outline-none
+  }
+    
+  .anim_underline {
+    @apply absolute bg-[#5891ff] w-[0%] h-[2px] bottom-0 left-0 transition-all
+  }
+    
+  .inputs:focus ~ .anim_underline {
+    @apply w-full
+  }
 }
