@@ -2,8 +2,8 @@
 <h5 align="center">🌐 Link to website: https://next-dashboard-erkanuz.vercel.app/ </h5>
 
 <div align="center">
- <img src="https://github.com/erkanuz/test/assets/78959562/ba6f424a-08d6-4edd-91ef-f6f96d82fc2b"/>
- </div>
+ <img width="100%" src="https://github.com/erkanuz/next-dashboard/assets/78959562/86380114-002d-4bae-adae-ff6fc73abe11"/>
+ </div
 
 ## About
 This is a dashboard made using Next.js + Tailwind CSS + MongoDB.
