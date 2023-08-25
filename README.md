@@ -3,7 +3,7 @@
 
 <div align="center">
  <img width="100%" src="https://github.com/erkanuz/next-dashboard/assets/78959562/86380114-002d-4bae-adae-ff6fc73abe11"/>
- </div
+</div>
 
 ## About
 This is a dashboard made using Next.js + Tailwind CSS + MongoDB.
